@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    RED.nodes.registerType('scrape',{
+        category: 'parser',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            mapping: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "font-awesome/fa-code",
+        label: function() {
+            return this.name||"scrape";
+        },
+        oneditprepare: function(){
+            $("#node-input-mapping").typedInput({
+                type:"json",
+                types:["json"]
+            });
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="scrape">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-mapping"><i class="fa fa-arrows-h"></i> Mapping</label>
+        <input type="text" id="node-input-mapping" placeholder="Mapping">
+    </div>
+
+<script type="text/html" data-help-name="scrape">
+    <p>Scrape html request</p>
+</script>
