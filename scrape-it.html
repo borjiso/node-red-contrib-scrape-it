@@ -30,7 +30,32 @@
         <label for="node-input-mapping"><i class="fa fa-arrows-h"></i> Mapping</label>
         <input type="text" id="node-input-mapping" placeholder="Mapping">
     </div>
-
+</script>
 <script type="text/html" data-help-name="scrape">
     <p>Scrape html request</p>
+
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+        <dt>payload
+            <span class="property-type">string</span>
+        </dt>
+        <dd> the html to be parsed. </dd>
+    </dl>
+
+    <h3>Outputs</h3>
+     <ol class="node-ports">
+         <li>html parsed to JSON
+             <dl class="message-properties">
+                 <dt>payload <span class="property-type">JSON</span></dt>
+                 <dd>html parsed as defined in mapping property</dd>
+             </dl>
+         </li>
+     </ol>
+
+    <h3>Details</h3>
+        <p>Mapping property define how to transform html to JSON.</p>
+    <h3>References</h3>
+    <ul>
+        <li><a href="https://github.com/cheeriojs/cheerio#-selector-context-root">Selectors section of the Cheerio library</a></li>
+    </ul>
 </script>
