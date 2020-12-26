@@ -1,6 +1,6 @@
 # node-red-contrib-scrape-it
 
-A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements <a href="https://github.com/IonicaBizau/scrape-it">scrape-it</a>functionality.
+A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements <a href="https://github.com/IonicaBizau/scrape-it">scrape-it</a> functionality.
 
 ## Install
 
