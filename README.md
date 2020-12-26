@@ -1,6 +1,6 @@
 # node-red-contrib-scrape-it
 
-A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements scrape-it functionality.
+A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements [scrape-it](https://github.com/IonicaBizau/scrape-it) functionality.
 
 ## Install
 
@@ -46,5 +46,5 @@ For the format of the selector, please refer to the [Selectors section of the Ch
 
 
 
-[license]: /LICENSE
+[license]: https://github.com/borjiso/node-red-contrib-scrape-it/blob/master/LICENSE
 [website]: https://borjiso.github.io/
