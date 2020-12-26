@@ -9,6 +9,7 @@
   "keywords": [
     "scrape-it",
     "node-red-contrib-scrape-it",
+    "node-red",
     "parser",
     "html",
     "json"

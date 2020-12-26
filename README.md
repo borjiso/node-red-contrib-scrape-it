@@ -1,6 +1,6 @@
 # node-red-contrib-scrape-it
 
-A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements [scrape-it](https://github.com/IonicaBizau/scrape-it) functionality.
+A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements <a href="https://github.com/IonicaBizau/scrape-it">scrape-it</a>functionality.
 
 ## Install
 
@@ -40,7 +40,6 @@ For the format of the selector, please refer to the [Selectors section of the Ch
 ## :scroll: License
 
 [MIT][license] © [Borja Jimeno][website]
-
 
 
 
