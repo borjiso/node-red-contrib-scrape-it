@@ -10,7 +10,7 @@
     "scrape-it"
   ],
   "author": "borjiso",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "scrape-it": "^5.2.4"
   },
