@@ -9,8 +9,8 @@ module.exports = function(RED) {
         node.on('input', function(msg) {
 
             let html = msg.payload;
-            mapping = msg.payload.mapping || node.mapping;
-            mapping = JSON.parse(mapping);
+
+            mapping = msg.mapping ? msg.mapping : JSON.parse( node.mapping );
 
             msg.payload = scrapeIt.scrapeHTML(html, mapping);
             node.send(msg);
