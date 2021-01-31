@@ -36,6 +36,9 @@ This property is an object containing the scraping information.
 
 For the format of the selector, please refer to the [Selectors section of the Cheerio library](https://github.com/cheeriojs/cheerio#-selector-context-root-)
 
+## Contributors
+
+[Scott Evans][scott]
 
 ## :scroll: License
 
@@ -47,3 +50,4 @@ For the format of the selector, please refer to the [Selectors section of the Ch
 
 [license]: https://github.com/borjiso/node-red-contrib-scrape-it/blob/master/LICENSE
 [website]: https://borjiso.github.io/
+[scott]: https://github.com/scottsweb
