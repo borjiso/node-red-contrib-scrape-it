@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-scrape-it",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Scrape-it node",
   "main": "scrape-it.js",
   "scripts": {
@@ -13,18 +13,18 @@
     "parser",
     "html",
     "json"
-
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/borjiso/node-red-contrib-scrape-it"
+    "type": "git",
+    "url": "https://github.com/borjiso/node-red-contrib-scrape-it"
   },
   "homepage": "https://github.com/borjiso/node-red-contrib-scrape-it#readme",
   "bugs": "https://github.com/borjiso/node-red-contrib-scrape-it/issues",
-  "author": { "name" : "Borja Jimeno. borjiso"
-    , "email" : "borjiso@gmail.com"
-    , "url" : "https://borjiso.github.io/"
-    },
+  "author": {
+    "name": "Borja Jimeno. borjiso",
+    "email": "borjiso@gmail.com",
+    "url": "https://borjiso.github.io/"
+  },
   "license": "MIT",
   "dependencies": {
     "scrape-it": "5.2.4"
