@@ -11,8 +11,7 @@ module.exports = function(RED) {
             let html = msg.payload;
 
             mapping = msg.mapping ? msg.mapping : JSON.parse( node.mapping );
-
-            msg.payload = {html: msg.payload, scrapped: crapeIt.scrapeHTML(html, mapping)};
+            msg.payload = {html: msg.payload, scrapped: scrapeIt.scrapeHTML(html, mapping)};
             node.send(msg);
         });
     }
