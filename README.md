@@ -2,6 +2,8 @@
 
 A <a href="http://nodered.org" target="_new">Node-RED</a> node that implements <a href="https://github.com/IonicaBizau/scrape-it">scrape-it</a> functionality.
 
+![Screenshot](docs/screenshot-edit-window.png)
+
 ## Install
 
 Use the Manage Palette option in the Node-RED Editor menu.
