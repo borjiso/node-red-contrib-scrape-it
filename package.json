@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/borjiso/node-red-contrib-scrape-it"
+    "url": "https://github.com/joussy/node-red-contrib-scrape-it"
   },
   "homepage": "https://github.com/borjiso/node-red-contrib-scrape-it#readme",
   "bugs": "https://github.com/borjiso/node-red-contrib-scrape-it/issues",
